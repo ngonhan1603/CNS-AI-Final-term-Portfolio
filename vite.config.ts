@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/CNS-AI-Final-term-Portfolio-main/',
+    base: '/CNS-AI-Final-term-Portfolio/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
