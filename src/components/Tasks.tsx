@@ -15,7 +15,7 @@ export default function Tasks() {
       icon: <FileText className="w-5 h-5 text-accent-peach" />,
       desc: "Nắm vững kỹ năng quy hoạch không gian lưu trữ số và bảo mật dữ liệu. Bằng việc thực hành với File Explorer, tôi học được tư duy hệ thống hóa cây thư mục khoa học để quản lý tài nguyên học tập một cách tối ưu, thay vì chỉ tạo tệp tin ngẫu nhiên.",
       details: ["Làm việc với File Explorer hiệu quả", "Tổ chức cấu trúc thư mục rõ ràng cấp bậc", "Phân biệt thao tác xóa tạm và xóa vĩnh viễn"],
-      pdfUrl: "/CNS_W1.pdf"
+      pdfUrl: `${import.meta.env.BASE_URL}CNS_W1.pdf`
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export default function Tasks() {
       icon: <Search className="w-5 h-5 text-accent-peach" />,
       desc: "Định hình tư duy phản biện và năng lực sàng lọc thông tin trong thời đại số. Tôi đã học cách vận dụng toán tử tìm kiếm chuyên sâu để khai thác kho tư liệu học thuật, đồng thời rèn luyện kỹ năng nhận diện nguồn tin rác thông qua lưới tiêu chí CRAAP.",
       details: ["Sử dụng toán tử tìm kiếm nâng cao (Boolean)", "Đánh giá độ tin cậy của nguồn tài liệu (CRAAP)", "Tổng hợp ứng dụng và giới hạn công nghệ thực tiễn"],
-      pdfUrl: "/CNS_W2.pdf"
+      pdfUrl: `${import.meta.env.BASE_URL}CNS_W2.pdf`
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ export default function Tasks() {
       icon: <PenTool className="w-5 h-5 text-accent-peach" />,
       desc: "Chuyển từ tư duy 'tìm kiếm thụ động' sang 'điều hướng chủ động' đối với Trí Tuệ Nhân Tạo. Bằng việc thực hành framework sinh prompt chuyên sâu, tôi học được cách buộc AI suy luận theo chuỗi logic để hỗ trợ phân tích và tổng hợp kiến thức phức tạp.",
       details: ["Xác định vai trò và bối cảnh cụ thể cho AI", "Thiết lập khung cấu trúc và đặt ràng buộc rõ ràng", "Đánh giá, tinh chỉnh lặp prompt qua chuỗi kết quả"],
-      pdfUrl: "/CNS_W3.pdf"
+      pdfUrl: `${import.meta.env.BASE_URL}CNS_W3.pdf`
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ export default function Tasks() {
       icon: <Users className="w-5 h-5 text-accent-peach" />,
       desc: "Làm chủ phương pháp làm việc bất đồng bộ (Asynchronous) trong môi trường số. Thông qua dự án thực tế, tôi tiếp thu kinh nghiệm quản lý luồng tiến độ, vượt qua nỗi sợ xung đột (conflict) mã nguồn và kiểm soát giao tiếp liền mạch trên hệ sinh thái Agile.",
       details: ["Theo dõi vòng đời tiến độ To do - Doing - Done", "Chuẩn hóa tài liệu kỹ thuật và file minh chứng", "Giao tiếp, tháo gỡ lỗi kỹ thuật đa luồng theo nhánh"],
-      pdfUrl: "/CNS_W4.pdf"
+      pdfUrl: `${import.meta.env.BASE_URL}CNS_W4.pdf`
     },
     {
       id: 5,
@@ -55,7 +55,7 @@ export default function Tasks() {
       icon: <Sparkles className="w-5 h-5 text-accent-peach" />,
       desc: "Phá vỡ rào cản kỹ năng đồ họa truyền thống để trở thành người điều phối sáng tạo. Bài học mang lại tư duy tổng đạo diễn: biết cách lắp ghép sức mạnh của nhiều nền tảng AI khác nhau vào chung một chiến dịch, vẫn duy trì cảm quan thiết kế cá nhân.",
       details: ["Lên ý tưởng đa chiều và phát triển đề cương", "Tạo sinh minh họa độ phân giải cao bằng AI", "Biên tập, trau chuốt lại để giữ vững tính cá nhân"],
-      pdfUrl: "/CNS_W5.pdf"
+      pdfUrl: `${import.meta.env.BASE_URL}CNS_W5.pdf`
     },
     {
       id: 6,
@@ -65,7 +65,7 @@ export default function Tasks() {
       icon: <ShieldCheck className="w-5 h-5 text-accent-peach" />,
       desc: "Xây dựng bức tường phòng vệ đạo đức trước cám dỗ của công nghệ tiện lợi. Tôi học được cách nhận diện ảo giác (hallucination) của AI, hiểu nguyên tắc bảo vệ quyền sở hữu trí tuệ và khẳng định vị thế sinh viên không bị máy móc thao túng (Human-in-the-loop).",
       details: ["Đề xuất bộ 5 nguyên tắc sử dụng AI chuẩn mực", "Minh bạch hóa prompt và vai trò hỗ trợ của AI", "Nhận diện rủi ro 'Cognitive Atrophy' khi quá phụ thuộc"],
-      pdfUrl: "/CNS_W6.pdf"
+      pdfUrl: `${import.meta.env.BASE_URL}CNS_W6.pdf`
     }
   ];
 
