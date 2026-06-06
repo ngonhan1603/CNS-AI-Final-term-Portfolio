@@ -1,0 +1,112 @@
+{
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/metadata.json": {
+    "mtime": 1780713128.0,
+    "ast_hash": "0b314b0d723fb1390b6f1edb03bd1dca",
+    "semantic_hash": "0b314b0d723fb1390b6f1edb03bd1dca"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/package.json": {
+    "mtime": 1780713128.0,
+    "ast_hash": "b576f5272ec10262ed5ffa5d04092f71",
+    "semantic_hash": "b576f5272ec10262ed5ffa5d04092f71"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/tsconfig.json": {
+    "mtime": 1780713128.0,
+    "ast_hash": "8827451c4e35790dd3f3538c265e7d15",
+    "semantic_hash": "8827451c4e35790dd3f3538c265e7d15"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/vite.config.ts": {
+    "mtime": 1780713128.0,
+    "ast_hash": "400784be009b0adb6f6c97f2992e4106",
+    "semantic_hash": "400784be009b0adb6f6c97f2992e4106"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/App.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "8c54fad3742d1f7e5833f66c9de61c11",
+    "semantic_hash": "8c54fad3742d1f7e5833f66c9de61c11"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/main.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "2b36426d5ad7e08ef79746aa524f4fb7",
+    "semantic_hash": "2b36426d5ad7e08ef79746aa524f4fb7"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/components/Building.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "238eb6828b07386a09434ed556022cf4",
+    "semantic_hash": "238eb6828b07386a09434ed556022cf4"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/components/Footer.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "7cfce09437272135252b5a17975390b7",
+    "semantic_hash": "7cfce09437272135252b5a17975390b7"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/components/Hero.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "eca37d5132c6a597788eb4a631706592",
+    "semantic_hash": "eca37d5132c6a597788eb4a631706592"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/components/Journey.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "535221d97a81368d552426e9d6c18f32",
+    "semantic_hash": "535221d97a81368d552426e9d6c18f32"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/components/Navbar.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "0fbeb72429a4059699ff2c403f5f2609",
+    "semantic_hash": "0fbeb72429a4059699ff2c403f5f2609"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/components/TaskDetail.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "ca17e7d3da753fa30d549d542dc841df",
+    "semantic_hash": "ca17e7d3da753fa30d549d542dc841df"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/components/Tasks.tsx": {
+    "mtime": 1780713128.0,
+    "ast_hash": "b71118285a253348b49555ea907f397e",
+    "semantic_hash": "b71118285a253348b49555ea907f397e"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/src/data/portfolio.ts": {
+    "mtime": 1780713128.0,
+    "ast_hash": "c1c5716da1bd2da7c60f5573387513b6",
+    "semantic_hash": "c1c5716da1bd2da7c60f5573387513b6"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/README.md": {
+    "mtime": 1780713128.0,
+    "ast_hash": "a0e2fd945e518bd48eec20375b86286d",
+    "semantic_hash": "a0e2fd945e518bd48eec20375b86286d"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/index.html": {
+    "mtime": 1780713128.0,
+    "ast_hash": "c6cdc88c3abec682e37d1f35b7b4ad0b",
+    "semantic_hash": "c6cdc88c3abec682e37d1f35b7b4ad0b"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/public/CNS_W1.pdf": {
+    "mtime": 1780713128.0,
+    "ast_hash": "3176c707bc7993e6761cfafec1c9a4fb",
+    "semantic_hash": "3176c707bc7993e6761cfafec1c9a4fb"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/public/CNS_W2.pdf": {
+    "mtime": 1780713128.0,
+    "ast_hash": "751b95a38569e74034e5d81c6fdef078",
+    "semantic_hash": "751b95a38569e74034e5d81c6fdef078"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/public/CNS_W3.pdf": {
+    "mtime": 1780713128.0,
+    "ast_hash": "4e517ac8a5eb61ff49956f9f6924088e",
+    "semantic_hash": "4e517ac8a5eb61ff49956f9f6924088e"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/public/CNS_W4.pdf": {
+    "mtime": 1780713128.0,
+    "ast_hash": "1e71db31b9312c1fe83f45143340a14e",
+    "semantic_hash": "1e71db31b9312c1fe83f45143340a14e"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/public/CNS_W5.pdf": {
+    "mtime": 1780713128.0,
+    "ast_hash": "8cf0fb5b48bdfd47a3cba9b6cae0d8f4",
+    "semantic_hash": "8cf0fb5b48bdfd47a3cba9b6cae0d8f4"
+  },
+  "/home/nhanbeoo/Documents/CNS-AI-Final-term-Portfolio-main/public/CNS_W6.pdf": {
+    "mtime": 1780713128.0,
+    "ast_hash": "2055b7350265ee82e3bdcfd1467befcd",
+    "semantic_hash": "2055b7350265ee82e3bdcfd1467befcd"
+  }
+}
