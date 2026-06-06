@@ -45,8 +45,8 @@ const taskData: Record<number, TaskResult> = {
           Quản lý tệp tin không chỉ là việc lưu trữ, mà là <strong className="text-blue-600 font-bold">kiến tạo một hệ sinh thái không gian làm việc số khoa học.</strong> Quá trình từ việc lưu trữ bừa bãi đến khi tự tin thiết lập toàn bộ kiến trúc nhánh - tệp có tổ chức giúp tôi tiết kiệm hàng giờ mỗi tuần trong việc truy xuất dữ liệu.
         </AnimatedSection>
 
-        <div className="grid md:grid-cols-2 gap-6">
-          <HoverScaleNode className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-200/60 rounded-2xl shadow-lg p-6 relative overflow-hidden group">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <HoverScaleNode className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-200/60 rounded-2xl shadow-lg p-6 relative overflow-hidden group min-w-0">
             <div className="absolute -right-4 -top-4 w-24 h-24 bg-indigo-500/10 rounded-full blur-2xl group-hover:bg-indigo-500/20 transition-all duration-500" />
             <h4 className="font-semibold text-indigo-900 text-lg mb-4 flex items-center gap-3">
               <span className="p-2 bg-indigo-600 text-white rounded-lg shadow-md"><Compass className="w-5 h-5" /></span>
@@ -55,7 +55,7 @@ const taskData: Record<number, TaskResult> = {
             <p className="text-sm text-indigo-800/80 mb-5 leading-relaxed">
               Từ bỏ thói quen lưu ngẫu nhiên trên Desktop. Hệ thống <strong>Phân cấp Tuyến tính (Hierarchical Structure)</strong> được áp dụng nghiêm ngặt theo mô hình hình cây:
             </p>
-            <div className="bg-slate-900 rounded-xl p-5 shadow-inner border border-slate-700">
+            <div className="bg-slate-900 rounded-xl p-5 shadow-inner border border-slate-700 overflow-x-auto">
               <div className="font-mono text-[13px] text-green-400 space-y-1.5 opacity-90">
                 <div className="flex items-center gap-2"><span className="text-slate-500">~</span> <span>📁 University_Workspace</span></div>
                 <div className="flex items-center gap-2 ml-4"><span className="text-slate-600">├─</span> <span className="text-blue-300">📁 Semester_01</span></div>
@@ -66,7 +66,7 @@ const taskData: Record<number, TaskResult> = {
             </div>
           </HoverScaleNode>
 
-          <HoverScaleNode className="bg-gradient-to-br from-white to-stone-50 border border-stone-200/80 rounded-2xl shadow-lg p-6">
+          <HoverScaleNode className="bg-gradient-to-br from-white to-stone-50 border border-stone-200/80 rounded-2xl shadow-lg p-6 overflow-hidden min-w-0">
             <h4 className="font-semibold text-stone-900 text-lg mb-4 flex items-center gap-3">
               <span className="p-2 bg-stone-900 text-white rounded-lg shadow-md"><Terminal className="w-5 h-5" /></span>
               Quy chuẩn Định danh
@@ -79,27 +79,27 @@ const taskData: Record<number, TaskResult> = {
                 <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0 mt-0.5" />
                 <div>
                   <div className="text-[11px] text-stone-400 font-bold uppercase tracking-wider mb-0.5">Pattern Chuẩn</div>
-                  <div className="font-mono text-[13px] font-medium text-stone-800">[YYYYMMDD]_[Course]_[Topic]_[Version]</div>
+                  <div className="font-mono text-[13px] font-medium text-stone-800 break-all">[YYYYMMDD]_[Course]_[Topic]_[Version]</div>
                 </div>
               </li>
               <li className="flex items-start gap-3 p-3 bg-white rounded-lg border border-stone-100 shadow-sm transition-colors hover:border-emerald-200 hover:shadow-md">
                 <CheckCircle2 className="w-5 h-5 text-emerald-500 shrink-0 mt-0.5" />
                 <div>
                   <div className="text-[11px] text-stone-400 font-bold uppercase tracking-wider mb-0.5">Ví Dụ Thực Tế</div>
-                  <div className="font-mono text-[13px] font-medium text-stone-800">20231015_TinHocCS_BaoCao_vFINAL.pdf</div>
+                  <div className="font-mono text-[13px] font-medium text-stone-800 break-all">20231015_TinHocCS_BaoCao_vFINAL.pdf</div>
                 </div>
               </li>
             </ul>
           </HoverScaleNode>
         </div>
 
-        <AnimatedSection className="bg-stone-900 rounded-2xl overflow-hidden shadow-2xl relative">
+        <AnimatedSection className="bg-stone-900 rounded-2xl overflow-hidden shadow-2xl relative min-w-0">
           <div className="absolute top-0 right-0 p-8 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-stone-800/60 via-stone-900 to-stone-900 pointer-events-none" />
           <div className="relative z-10 px-6 py-5 border-b border-stone-800 flex justify-between items-center text-white">
             <span className="font-semibold text-lg tracking-wide">Bảng Kỹ năng Quản trị Vòng đời</span>
             <Sparkles className="w-5 h-5 text-accent-peach" />
           </div>
-          <div className="p-6 relative z-10 grid md:grid-cols-2 gap-6">
+          <div className="p-6 relative z-10 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-stone-800/50 p-5 rounded-xl border border-stone-700/50 hover:bg-stone-800 transition-colors">
               <div className="text-accent-peach font-bold mb-2">Quản trị Rủi ro</div>
               <p className="text-stone-400 text-sm leading-relaxed">Sử dụng Read-Only để khóa cứng các tệp lõi, thiết lập cơ chế tự động dọn rác và quy tắc khôi phục Recycle Bin an toàn - thứ cứu tôi khỏi nhiều bàn thua trông thấy.</p>
@@ -472,10 +472,10 @@ export default function TaskDetail() {
             </div>
             <h4 className="md:hidden ml-4 text-stone-900 font-bold text-base">Báo Cáo Tổng Hợp</h4>
           </div>
-          <div className="flex-1 min-w-0 pb-20">
+          <div className="flex-1 min-w-0 pb-20 overflow-hidden">
             <div className="bg-stone-50 p-6 md:p-10 rounded-[2rem] border border-stone-200/80 shadow-2xl shadow-stone-200/60 relative">
                <div className="absolute top-8 -left-3 w-6 h-6 bg-stone-50 border-t border-l border-stone-200/80 rotate-[-45deg] rounded-tl-sm hidden md:block" />
-               <div className="max-w-none">
+               <div className="max-w-none overflow-hidden">
                  {task.answer}
                </div>
             </div>
