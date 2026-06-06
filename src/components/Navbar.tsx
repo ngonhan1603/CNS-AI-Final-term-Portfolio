@@ -1,4 +1,5 @@
-import { Menu, X, Cpu } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Logo from './Logo';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -16,8 +17,8 @@ export default function Navbar() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center gap-2">
-            <div className="w-8 h-8 rounded bg-accent-peach text-white flex items-center justify-center shadow-lg shadow-accent-peach/30 transition-transform hover:scale-110">
-              <Cpu className="w-5 h-5" />
+            <div className="w-8 h-8 rounded-lg shadow-lg shadow-accent-peach/30 transition-transform hover:scale-110 overflow-hidden">
+              <Logo className="w-8 h-8" />
             </div>
             <a href="/#top" className="font-serif text-xl font-medium text-stone-900 tracking-tight">
               Ngô Thiện Nhân
