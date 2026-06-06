@@ -30,7 +30,7 @@ const AnimatedSection = ({ children, className = "" }: { children: React.ReactNo
 );
 
 const HoverScaleNode = ({ children, className = "" }: { children: React.ReactNode, className?: string }) => (
-  <motion.div whileHover={{ scale: 1.02, y: -5 }} className={`transition-all duration-300 ${className}`}>
+  <motion.div whileHover={{ scale: 1.02, y: -5 }} className={`transition-colors transition-shadow duration-300 ${className}`}>
     {children}
   </motion.div>
 );
@@ -118,7 +118,7 @@ const taskData: Record<number, TaskResult> = {
     ask: "Khả năng phân tích và đánh giá thông tin của tôi được biến đổi thế nào sau khi làm quen với các nền tảng cơ sở dữ liệu học thuật quốc tế?",
     answer: (
       <motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-8">
-        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-all">
+        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow">
           Bước ra khỏi hệ sinh thái tìm kiếm phổ thông cơ bản (Google Search thô), tôi đã chính thức trang bị <strong>tư duy của người làm nghiên cứu</strong>: Sàng lọc thông tin dựa trên cơ chế hoài nghi khoa học và các tiêu chí chuẩn mực quốc tế.
         </AnimatedSection>
 
@@ -160,7 +160,7 @@ const taskData: Record<number, TaskResult> = {
                   { l: "A", name: "Accuracy", sub: "Đã Peer-review", col: "text-pink-600", bg: "bg-pink-50" },
                   { l: "P", name: "Purpose", sub: "Không bias học thuật", col: "text-rose-600", bg: "bg-rose-50" }
                 ].map((item, idx) => (
-                  <motion.div whileHover={{ y: -5, scale: 1.05 }} key={idx} className="p-6 bg-white text-center hover:shadow-xl transition-all relative z-0 hover:z-10 cursor-default group">
+                  <motion.div whileHover={{ y: -5, scale: 1.05 }} key={idx} className="p-6 bg-white text-center hover:shadow-xl transition-shadow relative z-0 hover:z-10 cursor-default group">
                      <div className={`w-12 h-12 mx-auto rounded-2xl ${item.bg} ${item.col} flex items-center justify-center text-2xl font-black mb-3 shadow-inner group-hover:scale-110 transition-transform`}>
                        {item.l}
                      </div>
@@ -179,7 +179,7 @@ const taskData: Record<number, TaskResult> = {
     ask: "Hãy đi sâu vào quá trình dịch chuyển từ giao tiếp cơ bản đến khả năng 'điều khiển' AI qua framework chuyên nghiệp, tôi đã đạt được những bước tiến nào?",
     answer: (
       <motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-8">
-        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-all">
+        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow">
           Khoảnh khắc tôi nhận ra "AI chỉ thông minh bằng chính câu lệnh bạn đặt ra". Quy trình học này đánh dấu sự chuyển mình từ một người "dùng AI thụ động" thành <strong className="text-emerald-600 font-bold">"kiến trúc sư luồng suy nghĩ" (Prompt Engineering)</strong>.
         </AnimatedSection>
         
@@ -239,7 +239,7 @@ const taskData: Record<number, TaskResult> = {
     ask: "Kinh nghiệm thực chiến của tôi về quản lý dự án nhóm từ xa qua Git và các nền tảng Agile được đánh giá ở mức độ nào?",
     answer: (
       <motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-8">
-        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-all">
+        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow">
           Giao tiếp số và quản lý bất đồng bộ (Asynchronous collaboration) cực kỳ phức tạp. Trải qua dự án nhóm thực tế, tôi đã xây dựng thành công một <strong className="text-indigo-600 font-bold">Workflow chuyên nghiệp tiệm cận với môi trường doanh nghiệp phần mềm.</strong>
         </AnimatedSection>
 
@@ -289,7 +289,7 @@ const taskData: Record<number, TaskResult> = {
     ask: "Làm thế nào tôi đã điều phối cả hệ sinh thái Generative AI đa nền tảng để phục vụ sản xuất chiến dịch sáng tạo một cách có hồn, nhân bản?",
     answer: (
       <motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-8">
-        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-all">
+        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow">
           Đây là bài học đánh dấu sự trưởng thành từ vị thế "chờ AI tạo ra sản phẩm hoàn chỉnh" vươn lên thành <strong className="text-rose-600 font-bold">Giám đốc Sáng tạo (Creative Director)</strong> - người lắp ghép từng mảnh ghép thần kỳ của nhiều AI lõi vào chung một bức tranh.
         </AnimatedSection>
 
@@ -344,7 +344,7 @@ const taskData: Record<number, TaskResult> = {
     ask: "Khắc họa quan điểm triết lý của tôi trong việc phòng trừ hội chứng 'teo não kỹ thuật số' và vạch rõ lằn ranh liêm chính học thuật đối với AI.",
     answer: (
       <motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-8">
-        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-all">
+        <AnimatedSection className="text-lg text-stone-700 font-medium leading-relaxed bg-white p-6 rounded-2xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow">
           Bước qua sự phấn khích của công nghệ, bài học này chứng minh một sự tĩnh lặng và bản lĩnh tự nhận thức rất cao. Tôi đã nhìn nhận AI không phải một nền tảng cướp việc, cũng không phải chiếc phao bơi vạn năng, mà là <strong className="text-accent-peach font-bold">một ngoại lực cực thịnh cần cẩn trọng kiểm soát.</strong>
         </AnimatedSection>
 

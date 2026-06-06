@@ -85,11 +85,11 @@ export default function Tasks() {
             key={task.id}
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
-            whileHover={{ scale: 1.03, y: -8 }}
             viewport={{ once: true }}
             transition={{ delay: index * 0.1, duration: 0.4 }}
-            className="claude-card p-7 flex flex-col h-full z-10"
+            className="h-full z-10"
           >
+            <div className="claude-card p-7 flex flex-col h-full hover:scale-[1.03] hover:-translate-y-2">
             <div className="flex items-center justify-between mb-5">
               <span className="font-serif text-4xl font-bold text-orange-500 drop-shadow-sm">{task.number}</span>
               <div className="p-3 bg-stone-50 rounded-xl shadow-inner border border-stone-200">{task.icon}</div>
@@ -122,6 +122,7 @@ export default function Tasks() {
                     Xem PDF
                  </button>
               </div>
+            </div>
             </div>
           </motion.div>
         ))}
